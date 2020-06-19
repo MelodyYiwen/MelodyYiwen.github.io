@@ -4,7 +4,7 @@
 #include "expectimax.h"
 #include <algorithm>
 
-#define SPAWN_COUNT  2
+#define SPAWN_COUNT  1
 
 const int SPAWN_TILES[SPAWN_COUNT] = {2, 4};
 const double SPAWN_PROBABILITIES[SPAWN_COUNT] = {0.9, 0.1};
