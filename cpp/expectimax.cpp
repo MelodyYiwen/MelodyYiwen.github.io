@@ -6,7 +6,7 @@
 
 #define SPAWN_COUNT  2
 
-const int SPAWN_TILES[SPAWN_COUNT] = {2, 4};
+const int SPAWN_TILES[SPAWN_COUNT] = {};
 const double SPAWN_PROBABILITIES[SPAWN_COUNT] = {0.9, 0.1};
 
 double compute_score(const State& state, const Weight& weight, int depth)
